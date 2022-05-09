@@ -37,7 +37,10 @@
         <entry key="..\:/Users/HP/AndroidStudioProjects/MyApplication2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.127" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MyApplication2/app/src/main/res/xml/method.xml" value="0.20863616930312098" />
         <entry key="..\:/Users/HP/AppData/Local/Android/Sdk/platforms/android-31/data/res/drawable/progress_indeterminate_horizontal.xml" value="0.2225" />
-        <entry key="..\:/Users/HP/Downloads/M2-master/app/src/main/res/layout/activity_tamagochi.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/Downloads/M2-master/app/src/main/res/layout/activity_main_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/Downloads/M2-master/app/src/main/res/layout/activity_startscreen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/Downloads/M2-master/app/src/main/res/layout/activity_store.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/Downloads/M2-master/app/src/main/res/layout/activity_tamagochi.xml" value="0.264" />
       </map>
     </option>
   </component>

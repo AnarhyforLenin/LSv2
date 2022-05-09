@@ -2,9 +2,12 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.util.Log;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -20,14 +23,24 @@ import java.util.Date;
 import java.util.TimeZone;
 
 public class Tamagochi extends AppCompatActivity {
-
+    ImageButton store;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tamagochi);
 
-        TextView textView = findViewById(R.id.test);
+        store = findViewById(R.id.tools_store);
+
+        store.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intStore = new Intent(Tamagochi.this, Store.class);
+                startActivity(intStore);
+            }
+        });
+
+        //TextView textView = findViewById(R.id.test);
         Calendar c = Calendar.getInstance();
         //String time2 = String.format("%2d" , c.get(Calendar.HOUR_OF_DAY))+":"+String.format("%02d" , c.get(Calendar.MINUTE));
 
@@ -49,7 +62,7 @@ public class Tamagochi extends AppCompatActivity {
 
         if((substr1.equals(prayerTimes1) && foo<prayerTimes12) || (substr1.equals(prayerTimes2) && foo>prayerTimes22))
         {
-            textView.setText("st2");
+           // textView.setText("st2");
         }
 
         final int[] time = {100};
